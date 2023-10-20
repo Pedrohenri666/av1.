@@ -1,23 +1,44 @@
 body{
 
-    background: rgb(255, 6, 6)
+    background: color #c90000;
 }
 h1{
-    font-size: 60px;
-    color:  black ;
+    font-size: 40px;
+    color:  rgba(16, 48, 228, 0) ;
     text-align: center ;
 
 }
 p{
     font-size: 30px;
-    color:  rgb(232, 248, 5) ;
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif ;
+    color:  rgb(0, 255, 64) ;
+    text-align: center;
+    
 
 }
 img{
     width:  300px;
-    height: 300px;
-    margin: 60px ;
-    margin-left: 60px ;
+    margin-left: 100px ;
 }
+ .cabecalho{
+   
+    background-color: aquamarine;
+    display:flex
+ }
+  .logocabecalho{
+  width: 100px;
+  height: 100px;
+  }
+
+.listacabecalho{
+
+display:flex;
+margin-left:500px;
+}
+ .item_list_cabecalho{
+
+ color: blueviolet;
+ list-style:none;
+ text-transform:uppercase;
+ font-size: 10px;
+ padding: 5px;
+ }
